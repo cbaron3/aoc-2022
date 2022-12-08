@@ -1,17 +1,5 @@
 from aocd.models import Puzzle
 
-def check_if_visible(tree_range, tree, trees):
-    visible = True
-    print(*tree_range, tree)
-    
-    for height in tree_range:
-        if height >= tree:
-            return False
-
-    
-    return True
-
-
 def a(data):
 
     rows = len(data[0])
