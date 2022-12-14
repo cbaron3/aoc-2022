@@ -44,6 +44,7 @@ def a(data):
 
 def b(data):
 
+
     rows = len(data[0])
     cols = len(data)
 
